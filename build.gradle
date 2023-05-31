@@ -13,13 +13,13 @@ jar {
     manifest {
         attributes 'Main-Class': 'tictactoe.GameUI'
     }
-    archiveBaseName ='A3'
+    archiveBaseName ='TTT'
 }
 
 //change the name of the class that is run on line 16 to match your own code
 task run;
 run.doFirst {
-    println "To run the program:\njava -jar build/libs/A3.jar"
+    println "To run the program:\njava -jar build/libs/TTT.jar"
 }
 dependencies {
     testImplementation('junit:junit:4.13')

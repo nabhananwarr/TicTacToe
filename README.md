@@ -15,7 +15,7 @@ This object-oriented project is a TicTacToe simulator that allows users to play 
 
 * Describe any prerequisites, libraries, OS version, etc., needed before installing and running your program.
 
-The program should run on Windows, Mac, and Linux computers. It can be run in the terminal after starting scioer and using scioer shell. Java must be installed in your computer. The program uses imports from java.util. Note: My java version is 1.8 so my gradle build file is set to 1.8. 
+The program should run on Windows, Mac, and Linux computers. It can be run in the terminal after gradle build and run. Java must be installed in your computer. The program uses imports from java.util. Note: My java version is 1.8 so my gradle build file is set to 1.8. 
 
 ### Executing program
 
@@ -23,7 +23,7 @@ The program should run on Windows, Mac, and Linux computers. It can be run in th
 * Step-by-step bullets
 ```
 -Firstly, cd into the A3 folder, 
--Next build and run using he following commands:
+-Next gradle clean if necessary, build and run using he following commands:
     >gradle build
     >gradle run
 -Then, copy the line that is output from grade run. It must be run on terminal.
