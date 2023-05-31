@@ -22,14 +22,14 @@ The program should run on Windows, Mac, and Linux computers. It can be run in th
 * How to build and run the program
 * Step-by-step bullets
 ```
--Firstly, cd into the A3 folder, 
+-Firstly, cd into the TicTacToe folder, 
 -Next gradle clean if necessary, build and run using he following commands:
     >gradle build
     >gradle run
--Then, copy the line that is output from grade run. It must be run on terminal.
+-Then, copy the line that is output from gradle run. It must be run on terminal.
  It should read:
-    >java -jar build/libs/A3.jar
--You may also open it from build/libs/A3.jar using file explorer
+    >java -jar build/libs/TTT.jar
+-You may also open it from build/libs/TTT.jar using file explorer
 
 -To run XO from the command line (using TextUI):
     >java -cp build/classes/java/main tictactoe.TextUI
@@ -61,8 +61,7 @@ Keep a log of what things you accomplish when.  You can use git's tagging featur
 Inspiration, code snippets, etc.
 * [awesome-readme](https://github.com/matiassingers/awesome-readme)
 * [simple-readme] (https://gist.githubusercontent.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc/raw/d59043abbb123089ad6602aba571121b71d91d7f/README-Template.md)
-* course content 
-* course resources
+* course content and resources (University of Guelph, CIS2500)
 * snippets from past workshops
 
 
